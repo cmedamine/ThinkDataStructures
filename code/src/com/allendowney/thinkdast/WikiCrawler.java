@@ -6,7 +6,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Queue;
 
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import redis.clients.jedis.Jedis;

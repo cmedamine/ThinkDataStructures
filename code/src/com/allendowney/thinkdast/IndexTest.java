@@ -1,12 +1,13 @@
 package com.allendowney.thinkdast;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.*;
 
 import java.io.IOException;
 import java.util.Set;
 
 import org.jsoup.select.Elements;
+
 import org.junit.Before;
 import org.junit.Test;
 

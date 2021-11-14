@@ -38,7 +38,7 @@ public class MyArrayList<T> implements List<T> {
 		mal.add(3);
 		System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
 
-		mal.remove(new Integer(2));
+		mal.remove(Integer.valueOf(2));
 		System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
 	}
 

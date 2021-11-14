@@ -62,7 +62,7 @@ public class MyLinkedList<E> implements List<E> {
 		mll.add(3);
 		System.out.println(Arrays.toString(mll.toArray()) + " size = " + mll.size());
 
-		mll.remove(new Integer(2));
+		mll.remove(Integer.valueOf(2));
 		System.out.println(Arrays.toString(mll.toArray()) + " size = " + mll.size());
 	}
 
